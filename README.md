@@ -46,5 +46,12 @@ The process or using a network of remote servers hosted on the Internet to store
     Distributing your instances across multiple AZs allows failover configuration for handling requests when one goes down.   
     <10ms latency between AZs.   
     3.Edge location: Datacenter owned by a trusted partner of AWS which has a direct connection to the AWS network. These locationse serve requests for CloudFront and Route 53. Requests going to either of these services will be routed to the nearest edge location automatically. S3 Tranfer Acceleration traffic and API Gateway endpoint traffic also use the AWS Edge Network. This allows for low latency no matter where the end user is geographically located.   
+# 6. First steps to do on AWS
+    1. Billing and services
+    2. Cloudwatch set notifications
+    3. Identity and access management   
+# 7. AWS Services
+    1. Running servers in EC2 instances
+    2. Connecting to servers via Sessions manager
     
   
